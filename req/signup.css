@@ -1,0 +1,91 @@
+/*bold*/
+@font-face {
+    font-family:bol;
+    src: url(fonts/SF-Compact-Display-Bold.otf) format("opentype"),
+         url(fonts/SFCompactDisplay-Bold.woff) format("woff");
+}
+/*regular*/
+@font-face {
+    font-family:reg;
+    src: url(fonts/SF-Compact-Display-Regular.otf) format("opentype");
+         
+}
+body{
+	font-family:reg;
+	opacity: 0.7; 
+
+
+}
+
+#cent{
+	
+max-width:75%;
+height: auto;
+}
+.cen{
+font-size:3vw;
+font-family:bol;
+color: red;
+
+margin-right: 20%;
+margin-left: 20%;
+}
+.cenlow{
+	font-size: 1vw;
+	font-variant: 
+
+}
+.c{
+	margin: auto;
+    width: 30%;
+    
+    padding: 5px 50px;
+    font-size: 14px;
+}
+
+#linkedin{
+color :red;
+background-color: white;
+padding:10px 20px;
+border-style: solid;
+border-width: 2px;
+border-color: red;
+font-size: 10px;
+font-weight: bold;
+
+}
+
+#linkedin:hover{
+	background-color: red;
+	color: white;
+	
+	
+}
+#signin{
+	text-decoration: none;
+	color:gray;
+	font-size: 12px;
+	opacity: 0.7;
+	width: 20%;
+}
+.in{
+	margin: auto;
+    width: 30%;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding: 50px;
+    font-size: 10px;
+}
+.tags{
+	color: gray;
+}
+.inputs{
+	padding: 10px 15px;
+ width: 100%;
+border-radius:5px;
+}
+.inputs:focus{
+	background-color: black;
+	color: white;
+	border-color: black;
+}
